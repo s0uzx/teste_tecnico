@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    position: relative;
+    overflow: hidden;
+}
+
+.yellow-elipse {
+    width: 300px;
+    height: 300px;
+    bottom: 6.25rem;
+    left:6.25rem;
+    transform: rotate(10.95deg);
+    border-radius: 327px;
+    background: linear-gradient(0deg, #FBDD00 34%, #FF6A00 96%);
+   
+}
+
+.purple-elipse {
+    background: linear-gradient(180deg, #90F 0%, #24003C 81%);
+    width: 200px;
+    height: 200px;
+    border-radius: 327px;
+    justify-self: bottom;
+}
+
+.pink-elipse{
+    background: linear-gradient(180deg, #FF00A1 0%, #FF0004 84%);
+    width: 250px;
+    height: 250px;
+    transform: rotate(13.003deg);
+    border-radius: 327px;
+    justify-self: right;
+}
+
+.greenblue-elipse {
+    width: 107px;
+    height: 111px;
+    background: linear-gradient(180deg, #0FC 0%, #006954 100%);
+    border-radius: 327px;
+    justify-self: center;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 010.95deg);
+    padding: 220px;
+    border-radius: 20px;
+    box-shadow: 0 9px 36px rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    width: 50%;
+    justify-self: center;
+    border-radius: 15px;
+    
+}
+
+.welcome {
+    color: #2a1856;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+    .new-login {
+        color: #2a1856;
+        font-size: 24px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .btn-create-account {
+        color: #2a1856;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        line-height: normal;
+        border-radius: 3.125rem;
+        background: linear-gradient(270deg, rgba(217, 217, 217, 0.40) 0%, #FFF 93.5%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 12.5rem;
+        height: 3.125rem;
+    }
+
+    .btn-login-link {
+        color: #2a1856;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        line-height: normal;
+        border-radius: 3.125rem;
+        background: linear-gradient(270deg, rgba(217, 217, 217, 0.40) 0%, #FFF 93.5%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 12.5rem;
+        height: 3.125rem;
+    }
+
+    .login {
+        color: #2a1856;
+        font-size: 24px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .user-label {
+        color: #2a1856;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .password {
+        color: #2a1856;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .remember-me {
+        color: #2a1856;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .enter-button {
+        color: #ffffff;
+        background-color: #2A1856;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        line-height: normal;
+        border-radius: 3.125rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 12.5rem;
+        height: 3.125rem;
+    }
+
+  
